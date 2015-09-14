@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CelebCrush.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.celebCrush = [[CelebCrush alloc] init];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -23,5 +26,17 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(IBAction)GO:(id)sender {
+    
+    self.celebLabel.text = @"Zac Efron";
+}
+
+
+-(IBAction)NEXT:(id)sender {
+    
+    self.celebLabel.text = [self.celebCrush randomCeleb]; 
+}
+
 
 @end

@@ -7,8 +7,25 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <StoreKit/StoreKit.h>
+
+
+@class CelebCrush; 
 
 @interface ViewController : UIViewController
+
+@property (nonatomic, strong) IBOutlet UILabel *celebLabel;
+@property (nonatomic, strong) IBOutlet CelebCrush *celebCrush; 
+
+
+-(IBAction)GO:(id)sender;
+
+-(IBAction)NEXT:(id)sender;
+
+
+
+
+
 
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6182823A1B47528A00EFC32C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618282391B47528A00EFC32C /* StoreKit.framework */; };
 		6195D5A01B432EE60041C5F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6195D59F1B432EE60041C5F8 /* main.m */; };
 		6195D5A31B432EE60041C5F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6195D5A21B432EE60041C5F8 /* AppDelegate.m */; };
 		6195D5A61B432EE60041C5F8 /* Celebrity_Crush.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6195D5A41B432EE60041C5F8 /* Celebrity_Crush.xcdatamodeld */; };
@@ -15,6 +16,12 @@
 		6195D5AE1B432EE60041C5F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6195D5AD1B432EE60041C5F8 /* Images.xcassets */; };
 		6195D5B11B432EE60041C5F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6195D5AF1B432EE60041C5F8 /* LaunchScreen.xib */; };
 		6195D5BD1B432EE60041C5F8 /* Celebrity_CrushTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6195D5BC1B432EE60041C5F8 /* Celebrity_CrushTests.m */; };
+		6195D5C71B432F370041C5F8 /* IMG_0010.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6195D5C61B432F370041C5F8 /* IMG_0010.JPG */; };
+		6195D5C91B432F810041C5F8 /* IMG_4886.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 6195D5C81B432F810041C5F8 /* IMG_4886.PNG */; };
+		6195D5CC1B43343E0041C5F8 /* CelebCrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 6195D5CB1B43343E0041C5F8 /* CelebCrush.m */; };
+		6195D5CF1B4340140041C5F8 /* CreatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6195D5CE1B4340140041C5F8 /* CreatorViewController.m */; };
+		6195D5D21B43446A0041C5F8 /* GuessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6195D5D11B43446A0041C5F8 /* GuessViewController.m */; };
+		6195D5D51B4347470041C5F8 /* GuessCeleb.m in Sources */ = {isa = PBXBuildFile; fileRef = 6195D5D41B4347470041C5F8 /* GuessCeleb.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		618282391B47528A00EFC32C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		6195D59A1B432EE60041C5F8 /* Celebrity Crush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Celebrity Crush.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6195D59E1B432EE60041C5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6195D59F1B432EE60041C5F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +50,16 @@
 		6195D5B61B432EE60041C5F8 /* Celebrity CrushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Celebrity CrushTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6195D5BB1B432EE60041C5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6195D5BC1B432EE60041C5F8 /* Celebrity_CrushTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Celebrity_CrushTests.m; sourceTree = "<group>"; };
+		6195D5C61B432F370041C5F8 /* IMG_0010.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0010.JPG; path = ../../../../Users/moveon/Pictures/IMG_0010.JPG; sourceTree = "<group>"; };
+		6195D5C81B432F810041C5F8 /* IMG_4886.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_4886.PNG; path = "../../Trend it/Trend it/IMG_4886.PNG"; sourceTree = "<group>"; };
+		6195D5CA1B43343E0041C5F8 /* CelebCrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CelebCrush.h; sourceTree = "<group>"; };
+		6195D5CB1B43343E0041C5F8 /* CelebCrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CelebCrush.m; sourceTree = "<group>"; };
+		6195D5CD1B4340140041C5F8 /* CreatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatorViewController.h; sourceTree = "<group>"; };
+		6195D5CE1B4340140041C5F8 /* CreatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatorViewController.m; sourceTree = "<group>"; };
+		6195D5D01B43446A0041C5F8 /* GuessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuessViewController.h; sourceTree = "<group>"; };
+		6195D5D11B43446A0041C5F8 /* GuessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuessViewController.m; sourceTree = "<group>"; };
+		6195D5D31B4347460041C5F8 /* GuessCeleb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuessCeleb.h; sourceTree = "<group>"; };
+		6195D5D41B4347470041C5F8 /* GuessCeleb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuessCeleb.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6182823A1B47528A00EFC32C /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 		6195D5911B432EE60041C5F8 = {
 			isa = PBXGroup;
 			children = (
+				618282391B47528A00EFC32C /* StoreKit.framework */,
 				6195D59C1B432EE60041C5F8 /* Celebrity Crush */,
 				6195D5B91B432EE60041C5F8 /* Celebrity CrushTests */,
 				6195D59B1B432EE60041C5F8 /* Products */,
@@ -87,8 +107,18 @@
 				6195D5A21B432EE60041C5F8 /* AppDelegate.m */,
 				6195D5A71B432EE60041C5F8 /* ViewController.h */,
 				6195D5A81B432EE60041C5F8 /* ViewController.m */,
+				6195D5CA1B43343E0041C5F8 /* CelebCrush.h */,
+				6195D5CB1B43343E0041C5F8 /* CelebCrush.m */,
 				6195D5AA1B432EE60041C5F8 /* Main.storyboard */,
+				6195D5D01B43446A0041C5F8 /* GuessViewController.h */,
+				6195D5D11B43446A0041C5F8 /* GuessViewController.m */,
+				6195D5D31B4347460041C5F8 /* GuessCeleb.h */,
+				6195D5D41B4347470041C5F8 /* GuessCeleb.m */,
+				6195D5CD1B4340140041C5F8 /* CreatorViewController.h */,
+				6195D5CE1B4340140041C5F8 /* CreatorViewController.m */,
 				6195D5AD1B432EE60041C5F8 /* Images.xcassets */,
+				6195D5C81B432F810041C5F8 /* IMG_4886.PNG */,
+				6195D5C61B432F370041C5F8 /* IMG_0010.JPG */,
 				6195D5AF1B432EE60041C5F8 /* LaunchScreen.xib */,
 				6195D5A41B432EE60041C5F8 /* Celebrity_Crush.xcdatamodeld */,
 				6195D59D1B432EE60041C5F8 /* Supporting Files */,
@@ -171,6 +201,7 @@
 				TargetAttributes = {
 					6195D5991B432EE60041C5F8 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = GM9NVKATS3;
 					};
 					6195D5B51B432EE60041C5F8 = {
 						CreatedOnToolsVersion = 6.3;
@@ -202,7 +233,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6195D5C71B432F370041C5F8 /* IMG_0010.JPG in Resources */,
 				6195D5AC1B432EE60041C5F8 /* Main.storyboard in Resources */,
+				6195D5C91B432F810041C5F8 /* IMG_4886.PNG in Resources */,
 				6195D5B11B432EE60041C5F8 /* LaunchScreen.xib in Resources */,
 				6195D5AE1B432EE60041C5F8 /* Images.xcassets in Resources */,
 			);
@@ -223,9 +256,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6195D5A31B432EE60041C5F8 /* AppDelegate.m in Sources */,
+				6195D5D51B4347470041C5F8 /* GuessCeleb.m in Sources */,
+				6195D5CF1B4340140041C5F8 /* CreatorViewController.m in Sources */,
+				6195D5CC1B43343E0041C5F8 /* CelebCrush.m in Sources */,
 				6195D5A01B432EE60041C5F8 /* main.m in Sources */,
 				6195D5A91B432EE60041C5F8 /* ViewController.m in Sources */,
 				6195D5A61B432EE60041C5F8 /* Celebrity_Crush.xcdatamodeld in Sources */,
+				6195D5D21B43446A0041C5F8 /* GuessViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,9 +388,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Celebrity Crush/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -361,9 +401,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Celebrity Crush/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -420,6 +463,7 @@
 				6195D5C21B432EE60041C5F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6195D5C31B432EE60041C5F8 /* Build configuration list for PBXNativeTarget "Celebrity CrushTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +472,7 @@
 				6195D5C51B432EE60041C5F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
